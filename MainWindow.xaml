@@ -5,7 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GehInsBett"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="GehInsBett" 
+        Height="450" 
+        MinHeight="300"
+        Width="800"
+        MinWidth="400"
+        Background="#0A1C26"
+        Foreground="White">
     <Grid>
         
     </Grid>
