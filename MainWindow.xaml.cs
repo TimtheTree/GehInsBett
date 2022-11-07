@@ -10,6 +10,9 @@ namespace GehInsBett
         public MainWindow()
         {
             InitializeComponent();
+            var bettConfig = BettTimer.Config;
+            bettConfig.Set("hour", 22);
+            bettConfig.Set("minute", 0);
         }
     }
 }

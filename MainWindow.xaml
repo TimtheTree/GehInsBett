@@ -5,14 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GehInsBett"
         mc:Ignorable="d"
-        Title="GehInsBett" 
-        Height="450" 
+        Title="GehInsBett"
+        Height="450"
         MinHeight="300"
         Width="800"
         MinWidth="400"
         Background="#0A1C26"
         Foreground="White">
-    <Grid>
-        
-    </Grid>
+    <Border CornerRadius="7"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Background="#0B242F"
+            Width="300">
+        <StackPanel>
+            <TextBlock Text="Hallo!"
+                       FontSize="28"
+                       HorizontalAlignment="Center"
+                       Margin="20, 20, 20, 5" />
+            <TextBlock Text="Wann willst du ins Bett?"
+                       FontSize="22"
+                       HorizontalAlignment="Center"
+                       Margin="20, 5, 20, 10" />
+            <
+        </StackPanel>
+    </Border>
 </Window>
