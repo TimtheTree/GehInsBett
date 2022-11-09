@@ -1,5 +1,10 @@
 bin/
 obj/
+.vs/
+.idea/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+sonarlint
+*.csproj.user
+.DotSettings
