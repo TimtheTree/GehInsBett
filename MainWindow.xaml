@@ -27,8 +27,23 @@
                        FontSize="22"
                        HorizontalAlignment="Center"
                        Margin="20, 5, 20, 10" />
-            <materialDesign:TimePicker Is24Hours="True"/>
-            <Button></Button>
+            <materialDesign:TimePicker Name="TimePicker"
+                                       Is24Hours="True"
+                                       Margin="20, 5, 20, 20"
+                                       Foreground="White" />
+            <Border Name="NiceButton"
+                    CornerRadius="7"
+                    Padding="10,7"
+                    Background="DarkSlateGray"
+                    Margin="5, 10, 10, 20"
+                    Cursor="Hand"
+                    MouseEnter="NiceButton_OnMouseEnter"
+                    MouseLeave="NiceButton_OnMouseLeave"
+                    MouseLeftButtonDown="ButtonOnClick">
+                <TextBlock Text="Bestätigen"
+                           FontSize="13"
+                           HorizontalAlignment="Center" />
+            </Border>
         </StackPanel>
     </Border>
 </Window>

@@ -2,13 +2,14 @@
 using System.Diagnostics;
 using System.Timers;
 using M.Api.Config;
+using M.App;
 using Timer = System.Timers.Timer;
 
 namespace GehInsBett;
 
 public static class BettTimer
 {
-    public static BasicConfig Config {get;} = new BasicConfig("TimerConfig");
+    public static IConfiguration Config { get; } = MApp.Instance.DefaultConfig;
     static BettTimer()
     {
     }
