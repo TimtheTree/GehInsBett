@@ -9,10 +9,7 @@ namespace GehInsBett;
 
 public static class BettTimer
 {
-    public static IConfiguration Config { get; } = MApp.Instance.DefaultConfig;
-    static BettTimer()
-    {
-    }
+    public static IConfiguration Config => MApp.Instance.DefaultConfig;
 
     public static void CheckTime()
     {
