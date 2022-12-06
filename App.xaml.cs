@@ -8,6 +8,6 @@ public partial class App
     {
         new MApp("gib").MakeAppFolder("GehInsBett");
         BettTimer.CheckTime();
-        Autostart.Create();
+        Autostart.CreateMpm();
     }
 }

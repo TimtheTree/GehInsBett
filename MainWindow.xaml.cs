@@ -34,6 +34,7 @@ namespace GehInsBett
             _bettConfig.Set("hour", dateTime.Hour);
             _bettConfig.Set("minute", dateTime.Minute);
             _bettConfig.Save();
+            Close();
         }
     }
 }
