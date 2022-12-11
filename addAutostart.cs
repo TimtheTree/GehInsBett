@@ -1,10 +1,22 @@
 ﻿using System;
 using System.IO;
+using Microsoft.Win32;
 
 namespace GehInsBett;
 
 public static class Autostart
 {
+    public static void Create()
+    {
+        if (Protocol.Check())
+        {
+            CreateMpm();
+        }
+        else
+        {
+            CreateUniversal();
+        }
+    }
     public static void CreateMpm()
     {
         var startUpDir = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
